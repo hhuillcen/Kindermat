@@ -1,0 +1,136 @@
+@charset "utf-8";
+.btn2{
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.border-radius{
+    border-radius: 50%;
+}
+.nivelNumber{
+    cursor: default;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100% !important;
+    left: -25px;
+    top: -25px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.nivelNumber2{
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100% !important;
+    right: -25px;
+    top: -25px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.nivelNumber3{
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100% !important;
+    right: -25px;
+    top: 0px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.denyCursor {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.cardColors{
+    cursor: move;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+}
+.cardColors2{
+    cursor: move;
+    width: 100px;
+    height: 100px;
+    /* background: transparent !important; */
+}
+.cardColors4{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    /* background: transparent !important; */
+}
+.cardColors3{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+}
+.btnActive{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px #0009;
+}
+
+.inputTxt{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.resultSymbol{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+}
+.imageAdd{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+.imageAdd2{
+    position: absolute;
+    width: 100%;
+    height: 62%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.imageScreen{
+    width: 100%;
+    text-align: center;
+}
+.filledContainer{
+    background-color: #ffffff33 !important;
+}
+/*******svg styles*********/
+.svgColors>*{
+    fill:#fff;
+}
+.st0{stroke:#000000;stroke-miterlimit:10;}
+.stW{
+    stroke: #fff;
+    stroke-miterlimit: 10;
+}
+.filledGrey{
+    fill: #ffffff33 !important;
+}
+.filledGreen{
+    fill: #c0ffce !important;
+}

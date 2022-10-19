@@ -1,0 +1,33 @@
+@media screen and (max-width: 812px){
+    #nivelAdd>div{
+        width: 90% !important;
+    }
+    #levelNumber, .nivelNumber{
+        left:-10px;
+        top:-75px;
+    }
+    #playSongIntro, .nivelNumber2{
+        right:-9px;
+        top:-75px;
+    }
+    .btn_home_principal>button{
+        margin: 0;
+    }
+    .fillContainer>div{
+        width: 100% !important;
+        margin-bottom: 20px;
+        text-align: center !important;
+        border-right: 0 !important;
+        padding: 0 !important;
+    }
+    .fillContainer>div>svg{
+        padding: 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
+    .menubutton{
+        width: 100%;
+        margin: 15px !important;
+    }
+}
